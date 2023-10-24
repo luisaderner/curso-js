@@ -12,7 +12,7 @@ function isNumero(n) {
 }
 
 function inLista(n, lista) {
-    if (l.indexOf(Number(n)) != -1) {
+    if (lista.indexOf(Number(n)) != -1) {
         return true
     } else {
         return false
